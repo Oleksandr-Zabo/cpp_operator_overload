@@ -4,10 +4,27 @@
     <Filter Include="main">
       <UniqueIdentifier>{5b09ad66-20e4-4300-bc18-172258bb13f7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="fraction">
+      <UniqueIdentifier>{a1004c9d-89b7-4a6f-94cd-a4ee4edd926f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="fraction.cpp">
+      <Filter>fraction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fraction.h">
+      <Filter>fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>main</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
