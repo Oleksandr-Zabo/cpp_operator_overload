@@ -2,10 +2,13 @@
 
 bool Logger::is_print_logs = true;
 
+
+
 int main()
 {
 	Fraction f1(3, 4);
 	Fraction f2(2, 3);
+	
 	f1.print();
 	cout << f2 << endl;
 

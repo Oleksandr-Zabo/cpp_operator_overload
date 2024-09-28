@@ -77,17 +77,6 @@ inline int Fraction::getDen() const{
 
 //methods
 
-//istream& operator>>(istream& is, Fraction& f) {
-//	int num, den;
-//	cout << "Enter numerator: ";
-//	is >> num;
-//	cout << "Enter denominator: ";
-//	is >> den;
-//	f.setNum(num);
-//	f.setDen(den);
-//	return is;
-//}
-
 
 ostream& operator<<(ostream& os, const Fraction& f) {
 	Logger::info("Printing " + f._get_object_as_string());

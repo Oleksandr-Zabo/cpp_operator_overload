@@ -42,8 +42,7 @@ public:
 	inline int getDen() const;
 
 	//methods
-	//friend istream& operator >> (istream& is, const Fraction& f);
-
+	
 	void print() const;
 
 	void print(int numerator, int denominator) const;
